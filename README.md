@@ -3,6 +3,17 @@
 
 This is a solution to the [Order summary card challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/order-summary-component-QlPmajDUj). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
+## Table of contents
+
+
+  - [The challenge](#the-challenge)
+
+
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
+- [Author](#author)
+- [Acknowledgments](#acknowledgments)
 ### The challenge
 
 Users should be able to:
@@ -46,3 +57,6 @@ I am proud of the following code that I have written.
 
 - Website - [Shangsit](https://shangsit.github.io/OrderSummaryCard.github.io/)
 - Frontend Mentor - [@Shangsit](https://www.frontendmentor.io/profile/Shangsit)
+
+## Acknowledgments
+I want to thank Frontend Mentor for providing such an awesome platform to practice with real-world projects. 
