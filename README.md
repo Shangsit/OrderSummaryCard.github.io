@@ -37,7 +37,7 @@ Users should be able to:
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- CSS Grid
+
 
 ### What I learned
 The biggest thing I learned was to add background image and background color at the same time.
