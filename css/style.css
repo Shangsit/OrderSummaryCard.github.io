@@ -2,11 +2,16 @@
     margin: 0;
     padding: 0;
 }
+html{
+    height: 100%;
+}
+
 body{
+    min-height: 100%;
     background-color: hsl(225, 100%, 94%);
 }
 #background{
-    padding: 5% 36%;
+    padding: 7% 33%;
     background-image: url(../images/pattern-background-desktop.svg);
     background-repeat: no-repeat;
     display: flex;
@@ -16,10 +21,11 @@ body{
     
 }
 #body{
+    width: 473px;
+    height: 849px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
     background-color: white;
     z-index: 1;
     border-radius: 20px;  
@@ -28,8 +34,9 @@ body{
 
 /* top section */
 #top img{
-    width: 365px;
-    max-width: fit-content;
+    
+    width: 473px;
+    height: 283px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
 }
@@ -40,8 +47,7 @@ body{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding-top: 11%;
-    padding-bottom: 9%;
+    padding: 11% 54px;
 }
 #middle h1{
     font-family: 'Red Hat Display', sans-serif;
@@ -65,12 +71,13 @@ body{
 }
 /* plan section */
 #plan{
+    padding: 15px 2px;
     display: flex;
     align-items: center;
     justify-content: center;
     padding-top: 2px;
-    height: 70px;
-    width: 316px;
+    height: 80px;
+    width: 377px;
     background-color: hsl(225, 100%, 98%);
     border-radius: 7px;
 }
@@ -117,11 +124,11 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 26px 22px;
+    padding: 67px 22px;
 }
 #payment button{
     margin-bottom: 23px;
-    width: 316px;
+    width: 377px;
     height: 40px;
     border-radius: 10px;
     background-color: hsl(245, 75%, 52%);
@@ -146,6 +153,7 @@ body{
     cursor: pointer;
 }
 #payment a{
+    padding: 13px 0px;
     font-family: 'Red Hat Display', sans-serif;
     font-weight: 700;
     color: hsl(224, 23%, 55%);
@@ -162,6 +170,7 @@ footer{
     display: flex;
     align-items: center;
     justify-content: center;
+    bottom: 0px;
     
 }
 .attribution{
